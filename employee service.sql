@@ -45,3 +45,13 @@ select gender,max(salary) from employee_payroll;
 select gender,avg(salary) from employee_payroll;
 select count(salary) from employee_payroll;
 set sql_safe_updates=0;
+
+#UC8
+alter table employee_payroll add phone_number varchar(13) after name;
+alter table employee_payroll add address varchar(200) after phone_number;
+alter table employee_payroll add department varchar(100) not null after address;
+alter table employee_payroll alter address set default 'TBD';
+insert into employee_payroll (id,name,phone_number,address,department,salary,startDate,gender) 
+values(8,'sonu','55555656233','nagpur','CSE', 75000, '2014-08-12','M');
+
+
