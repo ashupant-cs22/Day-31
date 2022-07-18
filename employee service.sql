@@ -16,8 +16,8 @@ desc employee_payroll;
 
 #UC3 
 select * from employee_payroll;
-insert into employee_payroll (name,salary,startDate) values('Rajendra',40000,'2021-10-11');
-insert into employee_payroll (name,salary,startDate) values('Megha',70000,'2021-9-11');
-insert into employee_payroll (name,salary,startDate) values('Shushant',50000,'2021-1-17');
-insert into employee_payroll(name,salary,startdate)values('Nirmal',70000,'2022-05-10');
-insert into employee_payroll(name,salary,startdate)values('Ragul',60000,'2021-11-15');
+insert into employee_payroll (name,salary,startDate) values('Naman',40000,'2021-10-11');
+insert into employee_payroll (name,salary,startDate) values('Sam',70000,'2021-9-11');
+insert into employee_payroll (name,salary,startDate) values('Ashu',50000,'2021-1-17');
+insert into employee_payroll(name,salary,startdate)values('Ankit',70000,'2022-05-10');
+insert into employee_payroll(name,salary,startdate)values('Anku',60000,'2021-11-15');
