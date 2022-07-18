@@ -21,3 +21,6 @@ insert into employee_payroll (name,salary,startDate) values('Megha',70000,'2021-
 insert into employee_payroll (name,salary,startDate) values('Shushant',50000,'2021-1-17');
 insert into employee_payroll(name,salary,startdate)values('Nirmal',70000,'2022-05-10');
 insert into employee_payroll(name,salary,startdate)values('Ragul',60000,'2021-11-15');
+
+#UC4 
+select * from employee_payroll;
