@@ -31,4 +31,9 @@ select * from employee_payroll where name="Naman";
 select * from employee_payroll where salary=40000;
 select * from employee_payroll where startDate between '2021-10-11' And date(now());
 
+#UC6 
 
+alter table employee_payroll add gender char(1);
+UPDATE employee_payroll set gender='F' where id='2';
+UPDATE employee_payroll set gender = 'M' WHERE id =1;
+UPDATE employee_payroll set gender = 'M' WHERE id =4;
